@@ -133,7 +133,7 @@ static float cameraMatrix[16];
     glUniformMatrix4fv(cameraUniform, 1, GL_FALSE, cameraMatrix);
     
     if (textureFont)
-		textureFont->Render("Hello world!");
+		textureFont->Render("Hello world!", -1, FTPoint(-6 * 60, 0));
 	
 	[glView swapBuffers];
 	[self ShowFPS];

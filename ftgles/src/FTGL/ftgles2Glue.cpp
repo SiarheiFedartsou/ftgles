@@ -244,7 +244,7 @@ GLvoid ftglEnd()
 	}
     
     glVertexAttribPointer(ATTRIB_VERTEX, 3, GL_FLOAT, 0, sizeof(ftglesVertex_t), ftglesGlueArrays.vertices[0].xyz);
-    glVertexAttribPointer(ATTRIB_COLOR, 4, GL_UNSIGNED_BYTE, 0, sizeof(ftglesVertex_t), ftglesGlueArrays.vertices[0].rgba);
+    glVertexAttribPointer(ATTRIB_COLOR, 4, GL_UNSIGNED_BYTE, GL_TRUE, sizeof(ftglesVertex_t), ftglesGlueArrays.vertices[0].rgba);
 	
     glVertexAttribPointer(texCoordLocation, 2, GL_FLOAT, 0, sizeof(ftglesVertex_t), ftglesGlueArrays.vertices[0].st); 
     glEnableVertexAttribArray(texCoordLocation);

@@ -118,6 +118,7 @@
 		63AD97DC0FAA2A9F00A79D15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		63BA7ABA10A1DA040023F917 /* ftglesGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftglesGlue.h; sourceTree = "<group>"; };
 		63BA7CB110A1EC6F0023F917 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		B387ACD31831876500E63E15 /* FTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTColor.h; sourceTree = "<group>"; };
 		E431F793112E8CDA00E393A2 /* freetype2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = freetype2.xcodeproj; path = ../freetype2/freetype2.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -250,6 +251,7 @@
 				63AD935F0FAA1AE100A79D15 /* FTSimpleLayout.h */,
 				63BA7ABA10A1DA040023F917 /* ftglesGlue.h */,
 				631AB6AF12FA8D9A00243329 /* ftgles2Glue.cpp */,
+				B387ACD31831876500E63E15 /* FTColor.h */,
 			);
 			path = FTGL;
 			sourceTree = "<group>";

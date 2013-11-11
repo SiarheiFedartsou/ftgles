@@ -28,10 +28,12 @@
 #ifndef __ftgl__
 #define __ftgl__
 
+#include <stdint.h>
+
 /* Floating point types used by the library */
 typedef double   FTGL_DOUBLE;
 typedef float    FTGL_FLOAT;
-
+typedef uint8_t  FTGL_BYTE;
 
 /* We need the Freetype headers */
 #define FTGL_EXPORT
@@ -114,6 +116,7 @@ namespace FTGL
 #endif
 
 #include "FTPoint.h"
+#include "FTColor.h"
 #include "FTBBox.h"
 
 #include "FTGlyph.h"
