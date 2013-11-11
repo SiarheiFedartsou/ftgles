@@ -20,7 +20,7 @@
 #define __TTGXVAR_H__
 
 
-#include "ft2build.h"
+#include <ft2build.h>
 #include "ttobjs.h"
 
 
@@ -84,7 +84,7 @@ FT_BEGIN_HEADER
     FT_Fixed*       normalizedcoords;
 
     FT_MM_Var*      mmvar;
-    FT_Int          mmvar_len;
+    FT_Offset       mmvar_len;
 
     FT_Bool         avar_checked;
     GX_AVarSegment  avar_segment;

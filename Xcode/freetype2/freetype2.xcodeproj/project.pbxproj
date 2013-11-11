@@ -8,31 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6382B98A0FB12EFC00ECAC02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		6382BCA10FB132DD00ECAC02 /* afangles.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA020FB132DB00ECAC02 /* afangles.c */; };
-		6382BCA20FB132DD00ECAC02 /* afangles.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA030FB132DB00ECAC02 /* afangles.h */; };
-		6382BCA30FB132DD00ECAC02 /* afcjk.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA040FB132DB00ECAC02 /* afcjk.c */; };
-		6382BCA40FB132DD00ECAC02 /* afcjk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA050FB132DB00ECAC02 /* afcjk.h */; };
-		6382BCA50FB132DD00ECAC02 /* afdummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA060FB132DB00ECAC02 /* afdummy.c */; };
-		6382BCA60FB132DD00ECAC02 /* afdummy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA070FB132DB00ECAC02 /* afdummy.h */; };
-		6382BCA70FB132DD00ECAC02 /* aferrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA080FB132DB00ECAC02 /* aferrors.h */; };
-		6382BCA80FB132DD00ECAC02 /* afglobal.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA090FB132DB00ECAC02 /* afglobal.c */; };
-		6382BCA90FB132DD00ECAC02 /* afglobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA0A0FB132DB00ECAC02 /* afglobal.h */; };
-		6382BCAA0FB132DD00ECAC02 /* afhints.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA0B0FB132DB00ECAC02 /* afhints.c */; };
-		6382BCAB0FB132DD00ECAC02 /* afhints.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA0C0FB132DB00ECAC02 /* afhints.h */; };
-		6382BCAC0FB132DD00ECAC02 /* afindic.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA0D0FB132DB00ECAC02 /* afindic.c */; };
-		6382BCAD0FB132DD00ECAC02 /* afindic.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA0E0FB132DB00ECAC02 /* afindic.h */; };
-		6382BCAE0FB132DD00ECAC02 /* aflatin.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA0F0FB132DB00ECAC02 /* aflatin.c */; };
-		6382BCAF0FB132DD00ECAC02 /* aflatin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA100FB132DB00ECAC02 /* aflatin.h */; };
-		6382BCB00FB132DD00ECAC02 /* aflatin2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA110FB132DB00ECAC02 /* aflatin2.c */; };
-		6382BCB10FB132DD00ECAC02 /* aflatin2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA120FB132DB00ECAC02 /* aflatin2.h */; };
-		6382BCB20FB132DD00ECAC02 /* afloader.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA130FB132DB00ECAC02 /* afloader.c */; };
-		6382BCB30FB132DD00ECAC02 /* afloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA140FB132DB00ECAC02 /* afloader.h */; };
-		6382BCB40FB132DD00ECAC02 /* afmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA150FB132DB00ECAC02 /* afmodule.c */; };
-		6382BCB50FB132DD00ECAC02 /* afmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA160FB132DB00ECAC02 /* afmodule.h */; };
-		6382BCB60FB132DD00ECAC02 /* aftypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA170FB132DB00ECAC02 /* aftypes.h */; };
-		6382BCB70FB132DD00ECAC02 /* afwarp.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA180FB132DB00ECAC02 /* afwarp.c */; };
-		6382BCB80FB132DD00ECAC02 /* afwarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BA190FB132DB00ECAC02 /* afwarp.h */; };
-		6382BCB90FB132DD00ECAC02 /* autofit.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA1A0FB132DB00ECAC02 /* autofit.c */; };
 		6382BCBB0FB132DD00ECAC02 /* ftadvanc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA1F0FB132DB00ECAC02 /* ftadvanc.c */; };
 		6382BCBC0FB132DD00ECAC02 /* ftapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA200FB132DB00ECAC02 /* ftapi.c */; };
 		6382BCBD0FB132DD00ECAC02 /* ftbase.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA210FB132DB00ECAC02 /* ftbase.c */; };
@@ -52,7 +27,6 @@
 		6382BCCB0FB132DD00ECAC02 /* ftinit.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA2F0FB132DB00ECAC02 /* ftinit.c */; };
 		6382BCCC0FB132DD00ECAC02 /* ftlcdfil.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA300FB132DB00ECAC02 /* ftlcdfil.c */; };
 		6382BCCE0FB132DD00ECAC02 /* ftmm.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA320FB132DB00ECAC02 /* ftmm.c */; };
-		6382BCCF0FB132DD00ECAC02 /* ftnames.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA330FB132DB00ECAC02 /* ftnames.c */; };
 		6382BCD00FB132DD00ECAC02 /* ftobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA340FB132DB00ECAC02 /* ftobjs.c */; };
 		6382BCD10FB132DD00ECAC02 /* ftotval.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA350FB132DB00ECAC02 /* ftotval.c */; };
 		6382BCD20FB132DD00ECAC02 /* ftoutln.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BA360FB132DB00ECAC02 /* ftoutln.c */; };
@@ -238,7 +212,6 @@
 		6382BDB10FB132DD00ECAC02 /* ttpost.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BB430FB132DC00ECAC02 /* ttpost.h */; };
 		6382BDB20FB132DD00ECAC02 /* ttsbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BB440FB132DC00ECAC02 /* ttsbit.c */; };
 		6382BDB30FB132DD00ECAC02 /* ttsbit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BB450FB132DC00ECAC02 /* ttsbit.h */; };
-		6382BDB40FB132DD00ECAC02 /* ttsbit0.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BB460FB132DC00ECAC02 /* ttsbit0.c */; };
 		6382BDB50FB132DD00ECAC02 /* ftgrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BB480FB132DC00ECAC02 /* ftgrays.c */; };
 		6382BDB60FB132DD00ECAC02 /* ftgrays.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BB490FB132DC00ECAC02 /* ftgrays.h */; };
 		6382BDB70FB132DD00ECAC02 /* ftsmerrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BB4A0FB132DC00ECAC02 /* ftsmerrs.h */; };
@@ -311,6 +284,7 @@
 		6382BED00FB1392300ECAC02 /* pcfread.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BEC40FB1392300ECAC02 /* pcfread.h */; };
 		6382BED10FB1392300ECAC02 /* pcfutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 6382BEC50FB1392300ECAC02 /* pcfutil.c */; };
 		6382BED20FB1392300ECAC02 /* pcfutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6382BEC60FB1392300ECAC02 /* pcfutil.h */; };
+		B387ACCE18315F9000E63E15 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B387ACCD18315F9000E63E15 /* Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -446,7 +420,6 @@
 		6382BA2F0FB132DB00ECAC02 /* ftinit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftinit.c; sourceTree = "<group>"; };
 		6382BA300FB132DB00ECAC02 /* ftlcdfil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftlcdfil.c; sourceTree = "<group>"; };
 		6382BA320FB132DB00ECAC02 /* ftmm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftmm.c; sourceTree = "<group>"; };
-		6382BA330FB132DB00ECAC02 /* ftnames.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftnames.c; sourceTree = "<group>"; };
 		6382BA340FB132DB00ECAC02 /* ftobjs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftobjs.c; sourceTree = "<group>"; };
 		6382BA350FB132DB00ECAC02 /* ftotval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftotval.c; sourceTree = "<group>"; };
 		6382BA360FB132DB00ECAC02 /* ftoutln.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftoutln.c; sourceTree = "<group>"; };
@@ -673,7 +646,6 @@
 		6382BB430FB132DC00ECAC02 /* ttpost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ttpost.h; sourceTree = "<group>"; };
 		6382BB440FB132DC00ECAC02 /* ttsbit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ttsbit.c; sourceTree = "<group>"; };
 		6382BB450FB132DC00ECAC02 /* ttsbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ttsbit.h; sourceTree = "<group>"; };
-		6382BB460FB132DC00ECAC02 /* ttsbit0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ttsbit0.c; sourceTree = "<group>"; };
 		6382BB480FB132DC00ECAC02 /* ftgrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftgrays.c; sourceTree = "<group>"; };
 		6382BB490FB132DC00ECAC02 /* ftgrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftgrays.h; sourceTree = "<group>"; };
 		6382BB4A0FB132DC00ECAC02 /* ftsmerrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftsmerrs.h; sourceTree = "<group>"; };
@@ -764,6 +736,7 @@
 		6382BEC60FB1392300ECAC02 /* pcfutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcfutil.h; sourceTree = "<group>"; };
 		6382BEC70FB1392300ECAC02 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		6382BEC80FB1392300ECAC02 /* rules.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.mk; sourceTree = "<group>"; };
+		B387ACCD18315F9000E63E15 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -789,7 +762,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				63AD9B3B0FAA2FD500A79D15 /* freetype-2.3.9 */,
+				B387ACCD18315F9000E63E15 /* Prefix.pch */,
+				63AD9B3B0FAA2FD500A79D15 /* freetype-2.5.0 */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -1012,7 +986,6 @@
 				6382BA2F0FB132DB00ECAC02 /* ftinit.c */,
 				6382BA300FB132DB00ECAC02 /* ftlcdfil.c */,
 				6382BA320FB132DB00ECAC02 /* ftmm.c */,
-				6382BA330FB132DB00ECAC02 /* ftnames.c */,
 				6382BA340FB132DB00ECAC02 /* ftobjs.c */,
 				6382BA350FB132DB00ECAC02 /* ftotval.c */,
 				6382BA360FB132DB00ECAC02 /* ftoutln.c */,
@@ -1330,7 +1303,6 @@
 				6382BB430FB132DC00ECAC02 /* ttpost.h */,
 				6382BB440FB132DC00ECAC02 /* ttsbit.c */,
 				6382BB450FB132DC00ECAC02 /* ttsbit.h */,
-				6382BB460FB132DC00ECAC02 /* ttsbit0.c */,
 			);
 			path = sfnt;
 			sourceTree = "<group>";
@@ -1474,13 +1446,13 @@
 			path = pcf;
 			sourceTree = "<group>";
 		};
-		63AD9B3B0FAA2FD500A79D15 /* freetype-2.3.9 */ = {
+		63AD9B3B0FAA2FD500A79D15 /* freetype-2.5.0 */ = {
 			isa = PBXGroup;
 			children = (
 				6382BA000FB132DB00ECAC02 /* src */,
 				6382B1B50FB0FC8200ECAC02 /* include */,
 			);
-			name = "freetype-2.3.9";
+			name = "freetype-2.5.0";
 			path = "../../freetype-2.3.9";
 			sourceTree = "<group>";
 		};
@@ -1491,19 +1463,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6382BCA20FB132DD00ECAC02 /* afangles.h in Headers */,
-				6382BCA40FB132DD00ECAC02 /* afcjk.h in Headers */,
-				6382BCA60FB132DD00ECAC02 /* afdummy.h in Headers */,
-				6382BCA70FB132DD00ECAC02 /* aferrors.h in Headers */,
-				6382BCA90FB132DD00ECAC02 /* afglobal.h in Headers */,
-				6382BCAB0FB132DD00ECAC02 /* afhints.h in Headers */,
-				6382BCAD0FB132DD00ECAC02 /* afindic.h in Headers */,
-				6382BCAF0FB132DD00ECAC02 /* aflatin.h in Headers */,
-				6382BCB10FB132DD00ECAC02 /* aflatin2.h in Headers */,
-				6382BCB30FB132DD00ECAC02 /* afloader.h in Headers */,
-				6382BCB50FB132DD00ECAC02 /* afmodule.h in Headers */,
-				6382BCB60FB132DD00ECAC02 /* aftypes.h in Headers */,
-				6382BCB80FB132DD00ECAC02 /* afwarp.h in Headers */,
+				B387ACCE18315F9000E63E15 /* Prefix.pch in Headers */,
 				6382BCBE0FB132DD00ECAC02 /* ftbase.h in Headers */,
 				6382BCE10FB132DD00ECAC02 /* bdf.h in Headers */,
 				6382BCE30FB132DD00ECAC02 /* bdfdrivr.h in Headers */,
@@ -1675,18 +1635,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6382BCA10FB132DD00ECAC02 /* afangles.c in Sources */,
-				6382BCA30FB132DD00ECAC02 /* afcjk.c in Sources */,
-				6382BCA50FB132DD00ECAC02 /* afdummy.c in Sources */,
-				6382BCA80FB132DD00ECAC02 /* afglobal.c in Sources */,
-				6382BCAA0FB132DD00ECAC02 /* afhints.c in Sources */,
-				6382BCAC0FB132DD00ECAC02 /* afindic.c in Sources */,
-				6382BCAE0FB132DD00ECAC02 /* aflatin.c in Sources */,
-				6382BCB00FB132DD00ECAC02 /* aflatin2.c in Sources */,
-				6382BCB20FB132DD00ECAC02 /* afloader.c in Sources */,
-				6382BCB40FB132DD00ECAC02 /* afmodule.c in Sources */,
-				6382BCB70FB132DD00ECAC02 /* afwarp.c in Sources */,
-				6382BCB90FB132DD00ECAC02 /* autofit.c in Sources */,
 				6382BCBB0FB132DD00ECAC02 /* ftadvanc.c in Sources */,
 				6382BCBC0FB132DD00ECAC02 /* ftapi.c in Sources */,
 				6382BCBD0FB132DD00ECAC02 /* ftbase.c in Sources */,
@@ -1705,7 +1653,6 @@
 				6382BCCB0FB132DD00ECAC02 /* ftinit.c in Sources */,
 				6382BCCC0FB132DD00ECAC02 /* ftlcdfil.c in Sources */,
 				6382BCCE0FB132DD00ECAC02 /* ftmm.c in Sources */,
-				6382BCCF0FB132DD00ECAC02 /* ftnames.c in Sources */,
 				6382BCD00FB132DD00ECAC02 /* ftobjs.c in Sources */,
 				6382BCD10FB132DD00ECAC02 /* ftotval.c in Sources */,
 				6382BCD20FB132DD00ECAC02 /* ftoutln.c in Sources */,
@@ -1814,7 +1761,6 @@
 				6382BDAE0FB132DD00ECAC02 /* ttmtx.c in Sources */,
 				6382BDB00FB132DD00ECAC02 /* ttpost.c in Sources */,
 				6382BDB20FB132DD00ECAC02 /* ttsbit.c in Sources */,
-				6382BDB40FB132DD00ECAC02 /* ttsbit0.c in Sources */,
 				6382BDB50FB132DD00ECAC02 /* ftgrays.c in Sources */,
 				6382BDB80FB132DD00ECAC02 /* ftsmooth.c in Sources */,
 				6382BDBB0FB132DD00ECAC02 /* smooth.c in Sources */,
@@ -1867,6 +1813,8 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
 				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"FT2_BUILD_LIBRARY=1",
 					"FT_OPTION_AUTOFIT2=1",
@@ -1907,6 +1855,8 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"FT_OPTION_AUTOFIT2=1",
 					"FT2_BUILD_LIBRARY=1",

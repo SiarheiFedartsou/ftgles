@@ -4,7 +4,7 @@
 /*                                                                         */
 /*    Tags for TrueType and OpenType tables (specification only).          */
 /*                                                                         */
-/*  Copyright 1996-2001, 2004, 2005, 2007, 2008 by                         */
+/*  Copyright 1996-2001, 2004, 2005, 2007, 2008, 2013 by                   */
 /*  David Turner, Robert Wilhelm, and Werner Lemberg.                      */
 /*                                                                         */
 /*  This file is part of the FreeType project, and may only be used,       */
@@ -20,7 +20,7 @@
 #define __TTAGS_H__
 
 
-#include "ft2build.h"
+#include <ft2build.h>
 #include FT_FREETYPE_H
 
 #ifdef FREETYPE_H
@@ -40,6 +40,8 @@ FT_BEGIN_HEADER
 #define TTAG_bhed  FT_MAKE_TAG( 'b', 'h', 'e', 'd' )
 #define TTAG_bloc  FT_MAKE_TAG( 'b', 'l', 'o', 'c' )
 #define TTAG_bsln  FT_MAKE_TAG( 'b', 's', 'l', 'n' )
+#define TTAG_CBDT  FT_MAKE_TAG( 'C', 'B', 'D', 'T' )
+#define TTAG_CBLC  FT_MAKE_TAG( 'C', 'B', 'L', 'C' )
 #define TTAG_CFF   FT_MAKE_TAG( 'C', 'F', 'F', ' ' )
 #define TTAG_CID   FT_MAKE_TAG( 'C', 'I', 'D', ' ' )
 #define TTAG_cmap  FT_MAKE_TAG( 'c', 'm', 'a', 'p' )
