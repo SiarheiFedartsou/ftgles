@@ -49,29 +49,7 @@ FTGL_BEGIN_C_DECLS
         return ftgl; \
     }
 
-// FTBitmapFont::FTBitmapFont();
-C_TOR(ftglCreateBitmapFont, (const char *fontname),
-      FTBitmapFont, (fontname), FONT_BITMAP);
 
-// FTBufferFont::FTBufferFont();
-C_TOR(ftglCreateBufferFont, (const char *fontname),
-      FTBufferFont, (fontname), FONT_BUFFER);
-/*
-// FTExtrudeFont::FTExtrudeFont();
-C_TOR(ftglCreateExtrudeFont, (const char *fontname),
-      FTExtrudeFont, (fontname), FONT_EXTRUDE);
-
-// FTOutlineFont::FTOutlineFont();
-C_TOR(ftglCreateOutlineFont, (const char *fontname),
-      FTOutlineFont, (fontname), FONT_OUTLINE);
-*/
-// FTPixmapFont::FTPixmapFont();
-C_TOR(ftglCreatePixmapFont, (const char *fontname),
-      FTPixmapFont, (fontname), FONT_PIXMAP);
-
-// FTPolygonFont::FTPolygonFont();
-C_TOR(ftglCreatePolygonFont, (const char *fontname),
-      FTPolygonFont, (fontname), FONT_POLYGON);
 
 // FTTextureFont::FTTextureFont();
 C_TOR(ftglCreateTextureFont, (const char *fontname),

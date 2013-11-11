@@ -115,24 +115,13 @@ namespace FTGL
 
 #include "FTPoint.h"
 #include "FTBBox.h"
-#include "FTBuffer.h"
 
 #include "FTGlyph.h"
-#include "FTBitmapGlyph.h"
-#include "FTBufferGlyph.h"
 //#include "FTExtrdGlyph.h"
-#include "FTOutlineGlyph.h"
-#include "FTPixmapGlyph.h"
 #include "FTPolyGlyph.h"
 #include "FTTextureGlyph.h"
 
 #include "FTFont.h"
-#include "FTGLBitmapFont.h"
-#include "FTBufferFont.h"
-//#include "FTGLExtrdFont.h"
-#include "FTGLOutlineFont.h"
-#include "FTGLPixmapFont.h"
-#include "FTGLPolygonFont.h"
 #include "FTGLTextureFont.h"
 
 #include "FTLayout.h"
