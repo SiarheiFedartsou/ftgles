@@ -149,7 +149,6 @@ class FTTextureFontImpl : public FTFontImpl
 	
 	bool preRendered;
 	
-	bool disableTexture2D;
 	bool disableBlend;
 	GLint originalBlendSfactor;
 	GLint originalBlendDfactor;
