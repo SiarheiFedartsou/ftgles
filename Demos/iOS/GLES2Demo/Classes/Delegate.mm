@@ -49,10 +49,6 @@ static float cameraMatrix[16];
 {
 	NSString *fontpath = [NSString stringWithFormat:@"%@/Diavlo_BLACK_II_37.otf", 
 						  [[NSBundle mainBundle] resourcePath]];
-	
-	polygonFont = new FTPolygonFont([fontpath UTF8String]);
-    assert (!polygonFont->Error());
-	polygonFont->FaceSize(screenSize.width * 0.16f);
     
     textureFont = new FTTextureFont([fontpath UTF8String]);
 	assert (!textureFont->Error());
@@ -136,9 +132,6 @@ static float cameraMatrix[16];
     
     glUniformMatrix4fv(cameraUniform, 1, GL_FALSE, cameraMatrix);
     
-	//if (polygonFont)
-	//	polygonFont->Render("Hello world!");
-  
     if (textureFont)
 		textureFont->Render("Hello world!");
 	
@@ -215,7 +208,6 @@ static float cameraMatrix[16];
 - (void) dealloc
 {
 	delete textureFont;
-    delete polygonFont;
 	[glView release];
 	[window release];
 	[super dealloc];

@@ -31,7 +31,6 @@
 	CGSize screenSize;
 	CFTimeInterval CurrentTime;
 	CFTimeInterval LastFPSUpdate;
-	FTFont *polygonFont;
     FTFont *textureFont;
 }
 
