@@ -76,7 +76,6 @@
 		6382AB130FB0F19400ECAC02 /* FTVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTVector.h; sourceTree = "<group>"; };
 		6382AB470FB0F2A000ECAC02 /* FTTextureFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTTextureFont.cpp; sourceTree = "<group>"; };
 		6382AB480FB0F2A000ECAC02 /* FTTextureFontImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextureFontImpl.h; sourceTree = "<group>"; };
-		63AD91AA0FAA140E00A79D15 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		63AD934B0FAA1AE100A79D15 /* FTBBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBBox.h; sourceTree = "<group>"; };
 		63AD93510FAA1AE100A79D15 /* FTFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFont.h; sourceTree = "<group>"; };
 		63AD93530FAA1AE100A79D15 /* ftgles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftgles.h; sourceTree = "<group>"; };
@@ -87,7 +86,6 @@
 		63AD935F0FAA1AE100A79D15 /* FTSimpleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSimpleLayout.h; sourceTree = "<group>"; };
 		63AD97DC0FAA2A9F00A79D15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		63BA7ABA10A1DA040023F917 /* ftglesGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftglesGlue.h; sourceTree = "<group>"; };
-		63BA7CB110A1EC6F0023F917 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
 		B387ACD31831876500E63E15 /* FTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTColor.h; sourceTree = "<group>"; };
 		E431F793112E8CDA00E393A2 /* freetype2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = freetype2.xcodeproj; path = ../freetype2/freetype2.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -215,9 +213,7 @@
 		E431F77C112E8C1E00E393A2 /* ftgles */ = {
 			isa = PBXGroup;
 			children = (
-				63BA7CB110A1EC6F0023F917 /* AUTHORS */,
 				63AD932F0FAA1AE100A79D15 /* src */,
-				63AD91AA0FAA140E00A79D15 /* config.h */,
 			);
 			name = ftgles;
 			path = ../../ftgles;
