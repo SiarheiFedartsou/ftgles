@@ -122,7 +122,6 @@ namespace FTGL
 #include "FTGlyph.h"
 //#include "FTExtrdGlyph.h"
 #include "FTPolyGlyph.h"
-#include "FTTextureGlyph.h"
 
 #include "FTFont.h"
 #include "FTGLTextureFont.h"

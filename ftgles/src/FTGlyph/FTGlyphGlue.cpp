@@ -53,63 +53,11 @@ FTGL_BEGIN_C_DECLS
 
 
 
-
-// FTTextureGlyph::FTTextureGlyph();
 C_TOR(ftglCreateTextureGlyph, (FT_GlyphSlot glyph, int id, int xOffset,
                                int yOffset, int width, int height),
-      FTTextureGlyph, (glyph, id, xOffset, yOffset, width, height),
+      FTGlyph, (glyph, id, xOffset, yOffset, width, height),
       GLYPH_TEXTURE);
 
-// FTCustomGlyph::FTCustomGlyph();
-class FTCustomGlyph : public FTGlyph
-{
-public:
-    FTCustomGlyph(FTGLglyph *base, void *p,
-                  void (*render) (FTGLglyph *, void *, FTGL_DOUBLE, FTGL_DOUBLE,
-                                  int, FTGL_DOUBLE *, FTGL_DOUBLE *),
-                  void (*destroy) (FTGLglyph *, void *))
-     : FTGlyph((FT_GlyphSlot)0),
-       baseGlyph(base),
-       data(p),
-       renderCallback(render),
-       destroyCallback(destroy)
-    {}
-
-    ~FTCustomGlyph()
-    {
-        destroyCallback(baseGlyph, data);
-    }
-
-    float Advance() const { return baseGlyph->ptr->Advance(); }
-
-    const FTPoint& Render(const FTPoint& pen, int renderMode)
-    {
-        FTGL_DOUBLE advancex, advancey;
-        renderCallback(baseGlyph, data, pen.X(), pen.Y(), renderMode,
-                       &advancex, &advancey);
-        advance = FTPoint(advancex, advancey);
-        return advance;
-    }
-
-    const FTBBox& BBox() const { return baseGlyph->ptr->BBox(); }
-
-    FT_Error Error() const { return baseGlyph->ptr->Error(); }
-
-private:
-    FTPoint advance;
-    FTGLglyph *baseGlyph;
-    void *data;
-    void (*renderCallback) (FTGLglyph *, void *, FTGL_DOUBLE, FTGL_DOUBLE,
-                            int, FTGL_DOUBLE *, FTGL_DOUBLE *);
-    void (*destroyCallback) (FTGLglyph *, void *);
-};
-
-C_TOR(ftglCreateCustomGlyph, (FTGLglyph *base, void *data,
-         void (*renderCallback) (FTGLglyph *, void *, FTGL_DOUBLE, FTGL_DOUBLE,
-                                 int, FTGL_DOUBLE *, FTGL_DOUBLE *),
-         void (*destroyCallback) (FTGLglyph *, void *)),
-      FTCustomGlyph, (base, data, renderCallback, destroyCallback),
-      GLYPH_CUSTOM);
 
 #define C_FUN(cret, cname, cargs, cxxerr, cxxname, cxxarg) \
     cret cname cargs \

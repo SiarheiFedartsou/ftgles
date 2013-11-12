@@ -48,26 +48,6 @@ class FTGlyphImpl;
  */
 class FTGL_EXPORT FTGlyph
 {
-    protected:
-        /**
-         * Create a glyph.
-         *
-         * @param glyph  The Freetype glyph to be processed
-         */
-        FTGlyph(FT_GlyphSlot glyph);
-
-    private:
-        /**
-         * Internal FTGL FTGlyph constructor. For private use only.
-         *
-         * @param pImpl  Internal implementation object. Will be destroyed
-         *               upon FTGlyph deletion.
-         */
-        FTGlyph(FTGlyphImpl *pImpl);
-
-        /* Allow our internal subclasses to access the private constructor */
-        friend class FTTextureGlyph;
-
     public:
         /**
           * Destructor
@@ -81,7 +61,7 @@ class FTGL_EXPORT FTGlyph
          * @param renderMode  Render mode to display
          * @return  The advance distance for this glyph.
          */
-        virtual const FTPoint& Render(const FTPoint& pen, int renderMode) = 0;
+        virtual const FTPoint& Render(const FTPoint& pen, int renderMode);
 
         /**
          * Return the advance width for this glyph.
@@ -119,6 +99,53 @@ protected:
          * Current error code. Zero means no error.
          */
         FT_Error err;
+public:
+    /**
+     * Constructor
+     *
+     * @param glyph     The Freetype glyph to be processed
+     * @param id        The id of the texture that this glyph will be
+     *                  drawn in
+     * @param xOffset   The x offset into the parent texture to draw
+     *                  this glyph
+     * @param yOffset   The y offset into the parent texture to draw
+     *                  this glyph
+     * @param width     The width of the parent texture
+     * @param height    The height (number of rows) of the parent texture
+     */
+    FTGlyph(FT_GlyphSlot glyph, int id, int xOffset, int yOffset,
+                   int width, int height);
+
+private:
+    /**
+     * Kept for backwards compatability with FTGL.
+     */
+    static void ResetActiveTexture() {}
+    
+    /**
+     * The width of the glyph 'image'
+     */
+    int destWidth;
+    
+    /**
+     * The height of the glyph 'image'
+     */
+    int destHeight;
+    
+    /**
+     * Vector from the pen position to the topleft corner of the pixmap
+     */
+    FTPoint corner;
+    
+    /**
+     * The texture co-ords of this glyph within the texture.
+     */
+    FTPoint uv[2];
+    
+    /**
+     * The texture index that this glyph is contained in.
+     */
+    int glTextureID;
     
 };
 

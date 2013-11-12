@@ -31,7 +31,7 @@
 
 #include "FTVector.h"
 
-class FTTextureGlyph;
+class FTGlyph;
 
 class FTTextureFontImpl : public FTFontImpl
 {
@@ -70,7 +70,7 @@ class FTTextureFontImpl : public FTFontImpl
 	
     private:
         /**
-         * Create an FTTextureGlyph object for the base class.
+         * Create an FTGlyph object for the base class.
          */
         FTGlyph* MakeGlyphImpl(FT_GlyphSlot ftGlyph);
 

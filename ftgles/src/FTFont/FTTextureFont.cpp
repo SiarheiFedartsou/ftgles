@@ -158,7 +158,7 @@ FTGlyph* FTTextureFontImpl::MakeGlyphImpl(FT_GlyphSlot ftGlyph)
         }
     }
 
-    FTTextureGlyph* tempGlyph = new FTTextureGlyph(ftGlyph, textureIDList[textureIDList.size() - 1],
+    FTGlyph* tempGlyph = new FTGlyph(ftGlyph, textureIDList[textureIDList.size() - 1],
                                                     xOffset, yOffset, textureWidth, textureHeight);
     xOffset += static_cast<int>(tempGlyph->BBox().Upper().X() - tempGlyph->BBox().Lower().X() + padding + 0.5);
 	

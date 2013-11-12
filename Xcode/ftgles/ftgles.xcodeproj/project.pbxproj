@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		631AB6E512FA906200243329 /* FTCharmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAEA0FB0F19400ECAC02 /* FTCharmap.cpp */; };
 		631AB6E712FA906200243329 /* FTFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAEF0FB0F19400ECAC02 /* FTFace.cpp */; };
-		631AB6E912FA906200243329 /* FTTextureGlyph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB440FB0F29500ECAC02 /* FTTextureGlyph.cpp */; };
 		631AB6EB12FA906200243329 /* FTGlyph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAF80FB0F19400ECAC02 /* FTGlyph.cpp */; };
 		631AB6EC12FA906200243329 /* FTGlyphGlue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAF90FB0F19400ECAC02 /* FTGlyphGlue.cpp */; };
 		631AB6ED12FA906200243329 /* FTGlyphContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB030FB0F19400ECAC02 /* FTGlyphContainer.cpp */; };
@@ -25,23 +24,6 @@
 		631AB70B12FA906200243329 /* ftgles2Glue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631AB6AF12FA8D9A00243329 /* ftgles2Glue.cpp */; };
 		631AB70F12FA906200243329 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E431F798112E8CDA00E393A2 /* libFreetype2.a */; };
 		631AB71012FA906200243329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		63A6FE8C0FB1F7AF00C38E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		63A6FE950FB1F7DF00C38E72 /* FTCharmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAEA0FB0F19400ECAC02 /* FTCharmap.cpp */; };
-		63A6FE970FB1F7DF00C38E72 /* FTFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAEF0FB0F19400ECAC02 /* FTFace.cpp */; };
-		63A6FE990FB1F7DF00C38E72 /* FTTextureGlyph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB440FB0F29500ECAC02 /* FTTextureGlyph.cpp */; };
-		63A6FE9C0FB1F7DF00C38E72 /* FTGlyph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAF80FB0F19400ECAC02 /* FTGlyph.cpp */; };
-		63A6FE9D0FB1F7DF00C38E72 /* FTGlyphGlue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAF90FB0F19400ECAC02 /* FTGlyphGlue.cpp */; };
-		63A6FE9E0FB1F7DF00C38E72 /* FTGlyphContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB030FB0F19400ECAC02 /* FTGlyphContainer.cpp */; };
-		63A6FE9F0FB1F7DF00C38E72 /* FTLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB070FB0F19400ECAC02 /* FTLayout.cpp */; };
-		63A6FEA00FB1F7DF00C38E72 /* FTLayoutGlue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB080FB0F19400ECAC02 /* FTLayoutGlue.cpp */; };
-		63A6FEA10FB1F7DF00C38E72 /* FTSimpleLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB0A0FB0F19400ECAC02 /* FTSimpleLayout.cpp */; };
-		63A6FEA20FB1F7DF00C38E72 /* FTLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB0C0FB0F19400ECAC02 /* FTLibrary.cpp */; };
-		63A6FEA30FB1F7DF00C38E72 /* FTPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB0F0FB0F19400ECAC02 /* FTPoint.cpp */; };
-		63A6FEA40FB1F7DF00C38E72 /* FTSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB100FB0F19400ECAC02 /* FTSize.cpp */; };
-		63A6FEA70FB1F7DF00C38E72 /* FTTextureFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AB470FB0F2A000ECAC02 /* FTTextureFont.cpp */; };
-		63A6FEA90FB1F7DF00C38E72 /* FTFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAD10FB0F16400ECAC02 /* FTFont.cpp */; };
-		63A6FEAA0FB1F7DF00C38E72 /* FTFontGlue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6382AAD20FB0F16400ECAC02 /* FTFontGlue.cpp */; };
-		E431F799112E8CE100E393A2 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E431F798112E8CDA00E393A2 /* libFreetype2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +39,6 @@
 			containerPortal = E431F793112E8CDA00E393A2 /* freetype2.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6382B1B10FB0FC5100ECAC02;
-			remoteInfo = Freetype2;
-		};
-		E431F79A112E8CEE00E393A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E431F793112E8CDA00E393A2 /* freetype2.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6382B1B00FB0FC5100ECAC02;
 			remoteInfo = Freetype2;
 		};
 /* End PBXContainerItemProxy section */
@@ -99,11 +74,8 @@
 		6382AB110FB0F19400ECAC02 /* FTSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSize.h; sourceTree = "<group>"; };
 		6382AB120FB0F19400ECAC02 /* FTUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUnicode.h; sourceTree = "<group>"; };
 		6382AB130FB0F19400ECAC02 /* FTVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTVector.h; sourceTree = "<group>"; };
-		6382AB440FB0F29500ECAC02 /* FTTextureGlyph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTTextureGlyph.cpp; sourceTree = "<group>"; };
 		6382AB470FB0F2A000ECAC02 /* FTTextureFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTTextureFont.cpp; sourceTree = "<group>"; };
 		6382AB480FB0F2A000ECAC02 /* FTTextureFontImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextureFontImpl.h; sourceTree = "<group>"; };
-		6382AB4A0FB0F2AD00ECAC02 /* FTTextureGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextureGlyph.h; sourceTree = "<group>"; };
-		63A6FE900FB1F7AF00C38E72 /* libFTGLES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFTGLES.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AD91AA0FAA140E00A79D15 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		63AD934B0FAA1AE100A79D15 /* FTBBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBBox.h; sourceTree = "<group>"; };
 		63AD93510FAA1AE100A79D15 /* FTFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFont.h; sourceTree = "<group>"; };
@@ -130,22 +102,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A6FE8B0FB1F7AF00C38E72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E431F799112E8CE100E393A2 /* libFreetype2.a in Frameworks */,
-				63A6FE8C0FB1F7AF00C38E72 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63A6FE900FB1F7AF00C38E72 /* libFTGLES.a */,
 				631AB71412FA906200243329 /* libFTGLES2.a */,
 			);
 			name = Products;
@@ -188,7 +150,6 @@
 		6382AAF10FB0F19400ECAC02 /* FTGlyph */ = {
 			isa = PBXGroup;
 			children = (
-				6382AB440FB0F29500ECAC02 /* FTTextureGlyph.cpp */,
 				6382AAF80FB0F19400ECAC02 /* FTGlyph.cpp */,
 				6382AAF90FB0F19400ECAC02 /* FTGlyphGlue.cpp */,
 			);
@@ -236,7 +197,6 @@
 		63AD934A0FAA1AE100A79D15 /* FTGL */ = {
 			isa = PBXGroup;
 			children = (
-				6382AB4A0FB0F2AD00ECAC02 /* FTTextureGlyph.h */,
 				63AD934B0FAA1AE100A79D15 /* FTBBox.h */,
 				63AD93510FAA1AE100A79D15 /* FTFont.h */,
 				63AD93530FAA1AE100A79D15 /* ftgles.h */,
@@ -289,13 +249,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A6FD510FB1F7AF00C38E72 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -315,24 +268,6 @@
 			name = FTGLES2;
 			productName = freetype;
 			productReference = 631AB71412FA906200243329 /* libFTGLES2.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		63A6FD500FB1F7AF00C38E72 /* FTGLES */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63A6FE8D0FB1F7AF00C38E72 /* Build configuration list for PBXNativeTarget "FTGLES" */;
-			buildPhases = (
-				63A6FD510FB1F7AF00C38E72 /* Headers */,
-				63A6FDD30FB1F7AF00C38E72 /* Sources */,
-				63A6FE8B0FB1F7AF00C38E72 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E431F79B112E8CEE00E393A2 /* PBXTargetDependency */,
-			);
-			name = FTGLES;
-			productName = freetype;
-			productReference = 63A6FE900FB1F7AF00C38E72 /* libFTGLES.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -363,7 +298,6 @@
 			);
 			projectRoot = "";
 			targets = (
-				63A6FD500FB1F7AF00C38E72 /* FTGLES */,
 				631AB6C712FA906200243329 /* FTGLES2 */,
 			);
 		};
@@ -386,7 +320,6 @@
 			files = (
 				631AB6E512FA906200243329 /* FTCharmap.cpp in Sources */,
 				631AB6E712FA906200243329 /* FTFace.cpp in Sources */,
-				631AB6E912FA906200243329 /* FTTextureGlyph.cpp in Sources */,
 				631AB6EB12FA906200243329 /* FTGlyph.cpp in Sources */,
 				631AB6EC12FA906200243329 /* FTGlyphGlue.cpp in Sources */,
 				631AB6ED12FA906200243329 /* FTGlyphContainer.cpp in Sources */,
@@ -403,28 +336,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A6FDD30FB1F7AF00C38E72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63A6FE950FB1F7DF00C38E72 /* FTCharmap.cpp in Sources */,
-				63A6FE970FB1F7DF00C38E72 /* FTFace.cpp in Sources */,
-				63A6FE990FB1F7DF00C38E72 /* FTTextureGlyph.cpp in Sources */,
-				63A6FE9C0FB1F7DF00C38E72 /* FTGlyph.cpp in Sources */,
-				63A6FE9D0FB1F7DF00C38E72 /* FTGlyphGlue.cpp in Sources */,
-				63A6FE9E0FB1F7DF00C38E72 /* FTGlyphContainer.cpp in Sources */,
-				63A6FE9F0FB1F7DF00C38E72 /* FTLayout.cpp in Sources */,
-				63A6FEA00FB1F7DF00C38E72 /* FTLayoutGlue.cpp in Sources */,
-				63A6FEA10FB1F7DF00C38E72 /* FTSimpleLayout.cpp in Sources */,
-				63A6FEA20FB1F7DF00C38E72 /* FTLibrary.cpp in Sources */,
-				63A6FEA30FB1F7DF00C38E72 /* FTPoint.cpp in Sources */,
-				63A6FEA40FB1F7DF00C38E72 /* FTSize.cpp in Sources */,
-				63A6FEA70FB1F7DF00C38E72 /* FTTextureFont.cpp in Sources */,
-				63A6FEA90FB1F7DF00C38E72 /* FTFont.cpp in Sources */,
-				63A6FEAA0FB1F7DF00C38E72 /* FTFontGlue.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -432,11 +343,6 @@
 			isa = PBXTargetDependency;
 			name = Freetype2;
 			targetProxy = 631AB6C912FA906200243329 /* PBXContainerItemProxy */;
-		};
-		E431F79B112E8CEE00E393A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Freetype2;
-			targetProxy = E431F79A112E8CEE00E393A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -509,72 +415,6 @@
 			};
 			name = Release;
 		};
-		63A6FE8E0FB1F7AF00C38E72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_SYMBOL_SEPARATION = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"FT2_BUILD_LIBRARY=1",
-					"FT_OPTION_AUTOFIT2=1",
-				);
-				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = "../../freetype-2.3.9/include/freetype/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
-				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
-				PRODUCT_NAME = FTGLES;
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "../../freetype-2.3.9/include ../../ftgles/src";
-				WARNING_CFLAGS = "-Wall";
-			};
-			name = Debug;
-		};
-		63A6FE8F0FB1F7AF00C38E72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COMPRESS_PNG_FILES = NO;
-				COPY_PHASE_STRIP = YES;
-				DEAD_CODE_STRIPPING = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"FT_OPTION_AUTOFIT2=1",
-					"FT2_BUILD_LIBRARY=1",
-				);
-				GCC_THUMB_SUPPORT = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = "../../freetype-2.3.9/include/freetype/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				PREBINDING = NO;
-				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
-				PRODUCT_NAME = FTGLES;
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "../../ftgles/src ../../freetype-2.3.9/include";
-				WARNING_CFLAGS = "-Wall";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -606,15 +446,6 @@
 			buildConfigurations = (
 				631AB71212FA906200243329 /* Debug */,
 				631AB71312FA906200243329 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		63A6FE8D0FB1F7AF00C38E72 /* Build configuration list for PBXNativeTarget "FTGLES" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63A6FE8E0FB1F7AF00C38E72 /* Debug */,
-				63A6FE8F0FB1F7AF00C38E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
