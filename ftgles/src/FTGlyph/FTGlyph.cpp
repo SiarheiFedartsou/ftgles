@@ -29,8 +29,6 @@
 #include "FTGL/ftgles.h"
 
 #include "FTInternals.h"
-#include "FTGlyphImpl.h"
-
 
 //
 //  FTGlyph
@@ -38,47 +36,6 @@
 
 
 FTGlyph::FTGlyph(FT_GlyphSlot glyph)
-{
-    impl = new FTGlyphImpl(glyph);
-}
-
-
-FTGlyph::FTGlyph(FTGlyphImpl *pImpl)
-{
-    impl = pImpl;
-}
-
-
-FTGlyph::~FTGlyph()
-{
-    delete impl;
-}
-
-
-float FTGlyph::Advance() const
-{
-    return impl->Advance();
-}
-
-
-const FTBBox& FTGlyph::BBox() const
-{
-    return impl->BBox();
-}
-
-
-FT_Error FTGlyph::Error() const
-{
-    return impl->Error();
-}
-
-
-//
-//  FTGlyphImpl
-//
-
-
-FTGlyphImpl::FTGlyphImpl(FT_GlyphSlot glyph, bool useList) : err(0)
 {
     if(glyph)
     {
@@ -88,25 +45,24 @@ FTGlyphImpl::FTGlyphImpl(FT_GlyphSlot glyph, bool useList) : err(0)
     }
 }
 
-
-FTGlyphImpl::~FTGlyphImpl()
-{}
+FTGlyph::~FTGlyph() {}
 
 
-float FTGlyphImpl::Advance() const
+float FTGlyph::Advance() const
 {
     return advance.Xf();
 }
 
 
-const FTBBox& FTGlyphImpl::BBox() const
+const FTBBox& FTGlyph::BBox() const
 {
     return bBox;
 }
 
 
-FT_Error FTGlyphImpl::Error() const
+FT_Error FTGlyph::Error() const
 {
     return err;
 }
+
 

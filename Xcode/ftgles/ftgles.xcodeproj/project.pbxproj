@@ -84,7 +84,6 @@
 		6382AAF00FB0F19400ECAC02 /* FTFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFace.h; sourceTree = "<group>"; };
 		6382AAF80FB0F19400ECAC02 /* FTGlyph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTGlyph.cpp; sourceTree = "<group>"; };
 		6382AAF90FB0F19400ECAC02 /* FTGlyphGlue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTGlyphGlue.cpp; sourceTree = "<group>"; };
-		6382AAFA0FB0F19400ECAC02 /* FTGlyphImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGlyphImpl.h; sourceTree = "<group>"; };
 		6382AB030FB0F19400ECAC02 /* FTGlyphContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTGlyphContainer.cpp; sourceTree = "<group>"; };
 		6382AB040FB0F19400ECAC02 /* FTGlyphContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGlyphContainer.h; sourceTree = "<group>"; };
 		6382AB050FB0F19400ECAC02 /* FTInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTInternals.h; sourceTree = "<group>"; };
@@ -101,7 +100,6 @@
 		6382AB120FB0F19400ECAC02 /* FTUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUnicode.h; sourceTree = "<group>"; };
 		6382AB130FB0F19400ECAC02 /* FTVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTVector.h; sourceTree = "<group>"; };
 		6382AB440FB0F29500ECAC02 /* FTTextureGlyph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTTextureGlyph.cpp; sourceTree = "<group>"; };
-		6382AB450FB0F29500ECAC02 /* FTTextureGlyphImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextureGlyphImpl.h; sourceTree = "<group>"; };
 		6382AB470FB0F2A000ECAC02 /* FTTextureFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FTTextureFont.cpp; sourceTree = "<group>"; };
 		6382AB480FB0F2A000ECAC02 /* FTTextureFontImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextureFontImpl.h; sourceTree = "<group>"; };
 		6382AB4A0FB0F2AD00ECAC02 /* FTTextureGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextureGlyph.h; sourceTree = "<group>"; };
@@ -191,10 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				6382AB440FB0F29500ECAC02 /* FTTextureGlyph.cpp */,
-				6382AB450FB0F29500ECAC02 /* FTTextureGlyphImpl.h */,
 				6382AAF80FB0F19400ECAC02 /* FTGlyph.cpp */,
 				6382AAF90FB0F19400ECAC02 /* FTGlyphGlue.cpp */,
-				6382AAFA0FB0F19400ECAC02 /* FTGlyphImpl.h */,
 			);
 			path = FTGlyph;
 			sourceTree = "<group>";

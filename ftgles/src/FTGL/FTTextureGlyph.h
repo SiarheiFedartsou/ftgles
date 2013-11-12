@@ -72,6 +72,36 @@ class FTGL_EXPORT FTTextureGlyph : public FTGlyph
          * @return  The advance distance for this glyph.
          */
         virtual const FTPoint& Render(const FTPoint& pen, int renderMode);
+private:
+        /**
+         * Kept for backwards compatability with FTGL.
+         */
+        static void ResetActiveTexture() {}
+        
+        /**
+         * The width of the glyph 'image'
+         */
+        int destWidth;
+        
+        /**
+         * The height of the glyph 'image'
+         */
+        int destHeight;
+        
+        /**
+         * Vector from the pen position to the topleft corner of the pixmap
+         */
+        FTPoint corner;
+        
+        /**
+         * The texture co-ords of this glyph within the texture.
+         */
+        FTPoint uv[2];
+        
+        /**
+         * The texture index that this glyph is contained in.
+         */
+        int glTextureID;
 };
 
 #endif //__cplusplus

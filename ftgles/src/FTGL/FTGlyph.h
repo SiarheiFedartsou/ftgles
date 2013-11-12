@@ -66,12 +66,6 @@ class FTGL_EXPORT FTGlyph
         FTGlyph(FTGlyphImpl *pImpl);
 
         /* Allow our internal subclasses to access the private constructor */
-        friend class FTBitmapGlyph;
-        friend class FTBufferGlyph;
-        //friend class FTExtrudeGlyph;
-        friend class FTOutlineGlyph;
-        friend class FTPixmapGlyph;
-        friend class FTPolygonGlyph;
         friend class FTTextureGlyph;
 
     public:
@@ -109,12 +103,23 @@ class FTGL_EXPORT FTGlyph
          * @return  The current error code.
          */
         virtual FT_Error Error() const;
-
-    private:
+protected:
+    
         /**
-         * Internal FTGL FTGlyph implementation object. For private use only.
+         * The advance distance for this glyph
          */
-        FTGlyphImpl *impl;
+        FTPoint advance;
+        
+        /**
+         * The bounding box of this glyph.
+         */
+        FTBBox bBox;
+        
+        /**
+         * Current error code. Zero means no error.
+         */
+        FT_Error err;
+    
 };
 
 #endif //__cplusplus

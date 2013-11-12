@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9BCB3C1F-B295-490B-951F-F898E09E0703</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KeyboardDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5DE1FEE-7FE9-40FF-BED2-5AE2E68D2B49</key>
+		<string>https://github.com/SiarheiFedartsou/ftgles.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demos/iOS/KeyboardDemo/KeyboardDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5DE1FEE-7FE9-40FF-BED2-5AE2E68D2B49</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SiarheiFedartsou/ftgles.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5DE1FEE-7FE9-40FF-BED2-5AE2E68D2B49</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5DE1FEE-7FE9-40FF-BED2-5AE2E68D2B49</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ftgles</string>
+		</dict>
+	</array>
+</dict>
+</plist>
